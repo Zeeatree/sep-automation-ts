@@ -1,0 +1,243 @@
+[
+  {
+    "description": "    As a customer, I want to see the program start dates and refund policy details before enrolling \n    so that I can make informed decisions.",
+    "elements": [
+      {
+        "description": "",
+        "id": "program-start-dates-and-refund-dates;verify-that-the-program-start-date-and-refund-date-are-displayed",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify that the program start date and refund date are displayed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 467412900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "user is on the enrollment page",
+            "match": {
+              "location": "steps\\getting-started\\startAndRefundDates.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1215450100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the program start date is displayed",
+            "match": {
+              "location": "steps\\getting-started\\startAndRefundDates.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20131199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the program refund date is displayed",
+            "match": {
+              "location": "steps\\getting-started\\startAndRefundDates.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4378399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 132039499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sep11",
+            "line": 1
+          },
+          {
+            "name": "@sep11-1",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "program-start-dates-and-refund-dates;verify-that-the-program-start-date-and-refund-date-are-correct",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Verify that the program start date and refund date are correct",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 408470899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "user is on the enrollment page",
+            "match": {
+              "location": "steps\\getting-started\\startAndRefundDates.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1523446399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "the displayed start date for the program is correct",
+            "match": {
+              "location": "steps\\getting-started\\startAndRefundDates.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26446500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the displayed refund date for the program is correct",
+            "match": {
+              "location": "steps\\getting-started\\startAndRefundDates.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8175500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 195545799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sep11",
+            "line": 1
+          },
+          {
+            "name": "@sep11-2",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "program-start-dates-and-refund-dates;verify-that-the-program-refund-policy-is-displayed",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Verify that the program refund policy is displayed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 384824700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "user is on the enrollment page",
+            "match": {
+              "location": "steps\\getting-started\\startAndRefundDates.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1141336599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "the program refund policy is displayed",
+            "match": {
+              "location": "steps\\getting-started\\startAndRefundDates.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14752599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "the refund policy details are correct",
+            "match": {
+              "location": "steps\\getting-started\\startAndRefundDates.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4840700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 157550200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sep11",
+            "line": 1
+          },
+          {
+            "name": "@sep11-3",
+            "line": 26
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "program-start-dates-and-refund-dates",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Program start dates and Refund dates",
+    "tags": [
+      {
+        "name": "@sep11",
+        "line": 1
+      }
+    ],
+    "uri": "features\\getting-started\\StartAndRefundDates.feature"
+  }
+]
