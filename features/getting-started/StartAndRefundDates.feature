@@ -10,7 +10,7 @@ Feature: Program start dates and Refund dates
     
     #TODO: Create scenarios that cover all the acceptance criteria
 
-    Background: 
+    Background:
         Given user is on the enrollment page
 
     @sep11-1

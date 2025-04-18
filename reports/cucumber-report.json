@@ -1,20 +1,20 @@
 [
   {
-    "description": "    As a customer, I want to see the program start dates and refund policy details before enrolling \n    so that I can make informed decisions.",
+    "description": "    As a customer, I should be able to click on the next button on step 1 when I give valid information.",
     "elements": [
       {
         "description": "",
-        "id": "program-start-dates-and-refund-dates;verify-that-the-program-start-date-and-refund-date-are-displayed",
+        "id": "click-on-the-next-button-on-step-1;click-on-the-next-button-on-step-1-with-all-fields",
         "keyword": "Scenario",
         "line": 17,
-        "name": "Verify that the program start date and refund date are displayed",
+        "name": "Click on the next button on step 1 with all fields",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 467412900
+              "duration": 390195500
             }
           },
           {
@@ -23,187 +23,50 @@
             "line": 14,
             "name": "user is on the enrollment page",
             "match": {
-              "location": "steps\\getting-started\\startAndRefundDates.ts:11"
+              "location": "steps\\getting-started\\clickNextButtonStep1.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 1215450100
+              "duration": 1282880799
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "When ",
             "line": 18,
-            "name": "the program start date is displayed",
+            "name": "I fill in all the fields with valid information",
             "match": {
-              "location": "steps\\getting-started\\startAndRefundDates.ts:16"
+              "location": "steps\\getting-started\\clickNextButtonStep1.ts:21"
             },
             "result": {
               "status": "passed",
-              "duration": 20131199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 19,
-            "name": "the program refund date is displayed",
-            "match": {
-              "location": "steps\\getting-started\\startAndRefundDates.ts:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4378399
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 132039499
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@sep11",
-            "line": 1
-          },
-          {
-            "name": "@sep11-1",
-            "line": 16
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "program-start-dates-and-refund-dates;verify-that-the-program-start-date-and-refund-date-are-correct",
-        "keyword": "Scenario",
-        "line": 22,
-        "name": "Verify that the program start date and refund date are correct",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 408470899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 14,
-            "name": "user is on the enrollment page",
-            "match": {
-              "location": "steps\\getting-started\\startAndRefundDates.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1523446399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 23,
-            "name": "the displayed start date for the program is correct",
-            "match": {
-              "location": "steps\\getting-started\\startAndRefundDates.ts:25"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 26446500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 24,
-            "name": "the displayed refund date for the program is correct",
-            "match": {
-              "location": "steps\\getting-started\\startAndRefundDates.ts:31"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8175500
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 195545799
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@sep11",
-            "line": 1
-          },
-          {
-            "name": "@sep11-2",
-            "line": 21
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "program-start-dates-and-refund-dates;verify-that-the-program-refund-policy-is-displayed",
-        "keyword": "Scenario",
-        "line": 27,
-        "name": "Verify that the program refund policy is displayed",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 384824700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 14,
-            "name": "user is on the enrollment page",
-            "match": {
-              "location": "steps\\getting-started\\startAndRefundDates.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1141336599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 28,
-            "name": "the program refund policy is displayed",
-            "match": {
-              "location": "steps\\getting-started\\startAndRefundDates.ts:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 14752599
+              "duration": 1184037400
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 29,
-            "name": "the refund policy details are correct",
+            "line": 19,
+            "name": "I click on the next button",
             "match": {
-              "location": "steps\\getting-started\\startAndRefundDates.ts:42"
+              "location": "steps\\getting-started\\clickNextButtonStep1.ts:32"
             },
             "result": {
               "status": "passed",
-              "duration": 4840700
+              "duration": 6028762399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should be taken to step 2",
+            "match": {
+              "location": "steps\\getting-started\\clickNextButtonStep1.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3405799
             }
           },
           {
@@ -211,33 +74,184 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 157550200
+              "duration": 171310700
             }
           }
         ],
         "tags": [
           {
-            "name": "@sep11",
+            "name": "@sep19",
             "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "click-on-the-next-button-on-step-1;click-on-the-next-button-on-step-1-with-only-required-fields",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Click on the next button on step 1 with only required fields",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 354155299
+            }
           },
           {
-            "name": "@sep11-3",
-            "line": 26
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "user is on the enrollment page",
+            "match": {
+              "location": "steps\\getting-started\\clickNextButtonStep1.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1432758499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I fill in only the required fields with valid information",
+            "match": {
+              "location": "steps\\getting-started\\clickNextButtonStep1.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74831400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I click on the next button",
+            "match": {
+              "location": "steps\\getting-started\\clickNextButtonStep1.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6044203800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I should be taken to step 2",
+            "match": {
+              "location": "steps\\getting-started\\clickNextButtonStep1.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2763600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 182706099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sep19",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "click-on-the-next-button-on-step-1;click-on-the-next-button-on-step-1-with-empty-fields",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Click on the next button on step 1 with empty fields",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 369112700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "user is on the enrollment page",
+            "match": {
+              "location": "steps\\getting-started\\clickNextButtonStep1.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1153259600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I leave all the fields empty",
+            "match": {
+              "location": "steps\\getting-started\\clickNextButtonStep1.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 361070700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I should see input labels turn red",
+            "match": {
+              "location": "steps\\getting-started\\clickNextButtonStep1.ts:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36895099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 204387000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sep19",
+            "line": 1
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "program-start-dates-and-refund-dates",
+    "id": "click-on-the-next-button-on-step-1",
     "line": 2,
     "keyword": "Feature",
-    "name": "Program start dates and Refund dates",
+    "name": "Click on the next button on step 1",
     "tags": [
       {
-        "name": "@sep11",
+        "name": "@sep19",
         "line": 1
       }
     ],
-    "uri": "features\\getting-started\\StartAndRefundDates.feature"
+    "uri": "features\\getting-started\\ClickNextButtonStep1.feature"
   }
 ]

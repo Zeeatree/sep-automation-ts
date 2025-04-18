@@ -7,10 +7,6 @@ import { productInfo } from "../../utilities/qa-data-reader";
  * Step Definitions for Start and Refund Dates
  */
 
-// Background: given user is on the enrollment page
-Given('user is on the enrollment page', async function () {
-  await startApplicationPage.login();
-});
 
 // Scnario: Verify the start and refund dates for the program are displayed
 Then('the program start date is displayed', async function () {
