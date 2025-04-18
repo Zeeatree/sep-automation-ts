@@ -107,6 +107,11 @@ export class StartApplicationPage extends BasePage {
 
   public readonly refundPolicy: Locator
     = this.page.locator("//span[@class='info-primary' and contains(text(), '100% refund')]");
+
+  public readonly firstNameInputLabel: Locator
+    = this.page.locator("//label[@id='mat-mdc-form-field-label-0']");
+
+  
   
 
 }

@@ -13,7 +13,7 @@ module.exports = {
      * Number of parallel workers to use for running tests
      * @type {number}
      */
-    parallel: 2,
+    parallel: 1,
 
     /**
      * Glob patterns for locating feature files
